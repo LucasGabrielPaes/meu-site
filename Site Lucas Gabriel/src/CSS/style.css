@@ -1,0 +1,73 @@
+body{
+font-family: "Roboto", sans-serif;
+}
+
+.cabecalho{
+    background: #281D37	;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    height: 70px;
+}
+.container{
+    
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.container .lucas-sobre{
+    color: #6528D3;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    line-height: 32px;
+
+}
+.container .filtro{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.container .jogos-lucas, .container .maestria{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-weight: 500;
+
+
+}
+
+.container label{
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #6528D3;
+}
+
+.container .jogos-lucas select, .container .maestria select {
+    padding: 16px 13px;
+    border-radius: 5px;
+    border: 2px solid #6528D3;
+    background-color: #F2EEFA;
+    height: 50px;
+    width: 250px;   
+}
+.container select:focus,
+.container select:focus-visible{
+    outline: none;
+
+}
+.container .jogos-lucas{
+    appearance: none;
+}
+
+footer{
+    text-align: center;
+    background: #281D37	;
+    color: #F2EEFA;
+}
+
+   
+    
+   
+

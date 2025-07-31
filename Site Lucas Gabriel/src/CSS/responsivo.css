@@ -1,0 +1,22 @@
+@media(max-width: 1024px) {
+    .container{
+        padding: 20px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container .filtro{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 16px;
+    }
+    
+}
+
+@media(max-width: 480px){
+
+}

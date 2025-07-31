@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Gabriel</title>
+    <link rel="stylesheet" href="src/CSS/reset.css">
+    <link rel="stylesheet" href="src/CSS/style.css">
+    <link rel="stylesheet" href="src/CSS/responsivo.css">
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <img src="src/Imagens/logo lucas.png" alt="">
+    </header>
+    <main class="container">
+        <h1 class="lucas-sobre">Sobre O Lucas</h1>
+        <div class="filtro">
+            <div class="jogos-lucas">
+                <label for="jogos">Escolha um jogo</label>
+                <select id="jogo" class="jogo">
+                    <option value="">Escolha um jogo</option>
+                    <option value="lol">League of Legends</option>
+                    <option value="ds">Darks Souls</option>
+                </select>
+            </div>
+            <div class="maestria">
+                <label for="maestrias">Escolha uma maestria</label>
+                <select id="maestria" class="maestria">
+                    <option value="">Maestrias</option>
+                    <option value="m7">Maestria 7</option>
+                    <option value="m6">Maestria 6</option>
+                </select>
+            </div>
+        </div>
+        <ul class="fotos">
+            <li class="carta" data-cartegoria="m7" data-preco="m7">
+                <div class="informacoes-champ">
+                    <h2 class="nome-champ">Shaco</h2>
+                    <span>Maestria 7</span>
+                    </div>
+                    <img src="src/Imagens/shaco.png" alt="">
+                
+                
+            </li>
+            <li class="carta" data-cartegoria="m7" data-preco="m7">
+                <div class="informacoes-champ">
+                    <h2 class="nome-champ">Kayn</h2>
+                    <span>Maestria 7</span>
+                    </div>
+                    <img src="src/Imagens/kayn.png" alt="">
+                
+                
+            </li>
+            <li class="carta" data-cartegoria="m7" data-preco="m7">
+                <div class="informacoes-champ">
+                    <h2 class="nome-champ">Malzahar</h2>
+                    <span>Maestria 7</span>
+                    </div>
+                    <img src="src/Imagens/malzahar.png" alt="">
+                
+                
+            </li>
+            <li class="carta" data-cartegoria="m7" data-preco="m7">
+                <div class="informacoes-champ">
+                    <h2 class="nome-champ">Veigar</h2>
+                    <span>Maestria 7</span>
+                    </div>
+                    <img src="src/Imagens/veigar.png" alt="">
+                
+                
+            </li>
+
+        
+            
+        </ul>
+    </main>
+    <footer class="rodape">@2025 - Todos os Direitos Reservados
+    </footer>
+    <script src="src/JS/index.js"></script>
+</body>
+</html>

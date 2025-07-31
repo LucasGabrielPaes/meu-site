@@ -1,0 +1,1 @@
+document.getElementsByClassName("lucas-sobre").innerHTML = "Blah blah blah";
